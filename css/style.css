@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#component--header {
+    background      :  #73707D;
+    padding         : 8px;
+    border-bottom   : solid 1px;
+    color: #B9E6F2;
+    font-size:1.5em;
+    line-height:3.0;
+    text-transform: lowercase;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+#component--header-logo{
+    color: #B9E6F2;
+    font-size:1.5em;
+    line-height:3.0;
+    text-transform: lowercase;
+    font-family: 'Averia Serif Libre', cursive;
+}
+#component--menu ul {
+    text-align: right;
+}
+
+#component--menu ul li {
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+#component--menu ul li a {
+    text-decoration: none;
+    color: #B9E6F2;
+    cursor: pointer;    
+}
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}	
+form input {
+	width: 100%;
+	display: block;
+	padding: 13px 13px;
+	font-size: 1em;
+	margin: 5px auto 10px;
+	border-radius: 3px;
+	box-sizing : border-box;
+	background: transparent;
+	border: 1px solid #3E606F;
+}
+form h2 {
+	margin: 25px auto;
+	text-align: center;
+	font-family: 'Averia Serif Libre', cursive;
+}
+form input:focus {
+	outline: none;
+}
+/* BUTTON DEFAULT */
+.btn{
+	color: white;
+	background: #4E6166;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	
+	margin: 10px 0px;
+	padding: 13px 20px;
+	text-decoration: none;
+}
+
+.container {
+	width: 80%;
+	margin: 0px auto;
+}	
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #73707D;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+}
+.query{
+    background-color: #dedede;
+    font-weight: bold;
+    padding: 5px;
+}
+.placeholder {
+  
+    color: red;
+   }
+   .obiava_element{
+    font-family: 'Averia Serif Libre', cursive;  
+    font-size:24 px;
+    padding: 13px 13px;
+    margin:  5px;
+    background: #dedede;
+    border: 1px solid #3E606F;
+   }
+   .obiava_element:hover{
+      background: #B9E6F2;
+      cursor: pointer;
+      color:black;
+   }
+   .w-px-210   { 
+       width: 210px; 
+       
+   }
+   .display{
+       display:inline-block;
+   }
+   a{ text-decoration: none;
+       color: #000;
+       cursor: pointer;  
+   }
+     p a:hover {
+	color: #B9E6F2;
+    background-color: #334F5C;
+}
+h1, h2, h3, h4, h5, h6 { color: #444; font-family: 'Averia Serif Libre', cursive; }
+.baner{
+	margin: 5px auto;
+	height: 400px;
+        font-family: 'Averia Serif Libre', cursive;
+	color: #73707D;
+	border-radius: 5px;
+	background-image: url('../static/images/baner6.jpg');
+	background-size: 100% 100%;
+}
